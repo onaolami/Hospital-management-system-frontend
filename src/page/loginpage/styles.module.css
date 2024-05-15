@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  min-height: 100vh;
+  align-items: center;
+  background: linear-gradient(90deg, #0098b9 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid #006980;
+}
+
+.wrapper {
+  margin: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid white;
+  background: none;
+  color: bisque;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: whitesmoke; /* Set text color of placeholder text to white */
+}
+
+button {
+  margin-top: 20px;
+  background: #079bbb;
+  border-radius: 2px;
+  width: 175px;
+  height: 46px;
+  align-self: flex-end;
+  border: none;
+}
+
+.Images2 {
+  height: auto;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.wrap {
+  margin: 50px;
+}
+
+.btn {
+  color: white;
+}
+
+.imgContain {
+  flex: 1;
+}
