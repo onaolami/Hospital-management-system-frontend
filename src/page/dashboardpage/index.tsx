@@ -1,10 +1,16 @@
-const DashBoardPage = ()=>{
-    return(
-        <div>
+import Header from "../../Components/Header";
+import PatientList from "../../Components/PatientList";
+import SideBar from "../../Components/Sidebar";
+import styles from "./styles.module.css";
 
-        </div>
-    )
-}
-
+const DashBoardPage = () => {
+  return (
+    <div className={styles.container}>
+      <Header />
+     <SideBar />
+     <PatientList/>
+    </div>
+  );
+};
 
 export default DashBoardPage;

@@ -1,0 +1,26 @@
+.line {
+  top: 200px;
+  border-bottom: 3px solid #ffffff;
+}
+
+.Image {
+  width: 190px;
+  height: 148px;
+  padding: 20px
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.flex2 {
+  display: flex;
+  gap:25px;
+  padding: 20px;
+}
+
+p{
+  color: white;
+}
