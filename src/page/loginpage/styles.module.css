@@ -16,7 +16,7 @@
   width: 500px;
 }
 
-.input {
+.Input {
   border: none;
   border-bottom: 1px solid white;
   background: none;
@@ -28,7 +28,7 @@
   color: whitesmoke; /* Set text color of placeholder text to white */
 }
 
-button {
+.btn{
   margin-top: 20px;
   background: #079bbb;
   border-radius: 2px;

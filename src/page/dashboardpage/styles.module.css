@@ -5,4 +5,7 @@ min-height: 100vh;
 
 }
 
+.wrap{
+    display: flex;
+}
 

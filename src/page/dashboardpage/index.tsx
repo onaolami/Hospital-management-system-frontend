@@ -7,8 +7,10 @@ const DashBoardPage = () => {
   return (
     <div className={styles.container}>
       <Header />
-     <SideBar />
-     <PatientList/>
+      <div className={styles.wrap}>
+      <SideBar />
+      <PatientList />
+      </div>
     </div>
   );
 };

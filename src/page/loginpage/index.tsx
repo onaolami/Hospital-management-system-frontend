@@ -6,8 +6,8 @@ const LoginPage = () => {
       <div className={styles.wrap}>
         <img className={styles.Images} src="/Images/Group.png" alt="" />
         <div className={styles.wrapper}>
-          <input className={styles.input} placeholder="Username" />
-          <input className={styles.input} placeholder="Password" />
+          <input className={styles.Input} placeholder="Username" />
+          <input className={styles.Input} placeholder="Password" />
           <button className={styles.btn}>Login</button>
         </div>
       </div>
