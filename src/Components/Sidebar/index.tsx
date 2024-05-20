@@ -1,13 +1,14 @@
+import Button from "../Button";
 import styles from "./styles.module.css"
 
 const SideBar = ()=>{
     return(
         <div className={styles.container}>
           <div className={styles.wrap}>
-         <h4 className={styles.text}>Create Patients</h4>
+         <Button size="LARGE" variant="DEFAULT">Create Patients</Button>
          </div>
          <div className={styles.wrap}>
-            <h4 className={styles.text}>Search for Patients</h4>
+          <Button size = "LARGE" variant="DEFAULT">Search for Patients</Button>
          </div>
         </div>
     )

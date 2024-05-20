@@ -1,0 +1,37 @@
+.btn {
+  height: 56px;
+  padding: 10px 20px 10px 20px;
+  width: 202px;
+  cursor: pointer;
+  color: white;
+  
+}
+
+.variantDefault {
+  background: none;
+  border: none;
+  color: var(--foundation-black-black-9, #454545);
+}
+
+.variantPrimary {
+  background: #079bbb;
+  border-color: #f5f5f5;
+  color: white;
+}
+
+.sizeSmall {
+  height: 56px;
+  padding: 10px 20px 10px 20px;
+  width: 202px;
+}
+
+.sizeLarge {
+  height: 50px;
+  width: 280px;
+}
+
+.sizeDefault {
+  border-radius: 2px;
+  width: 175px;
+  height: 46px;
+}

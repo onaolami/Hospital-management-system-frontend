@@ -28,14 +28,9 @@
   color: whitesmoke; /* Set text color of placeholder text to white */
 }
 
-.btn{
+button {
   margin-top: 20px;
-  background: #079bbb;
-  border-radius: 2px;
-  width: 175px;
-  height: 46px;
   align-self: flex-end;
-  border: none;
 }
 
 .Images2 {
@@ -47,10 +42,6 @@
 
 .wrap {
   margin: 50px;
-}
-
-.btn {
-  color: white;
 }
 
 .imgContain {

@@ -38,23 +38,20 @@ h3 {
   background: none;
 }
 
-.btn {
+.class {
   display: flex;
   background: #ffffff;
   justify-content: center;
   box-shadow: 0px 2.2027px 4.40541px rgba(0, 0, 0, 0.06),
     0px 2.2027px 6.60811px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-  
-
+  padding: 30px;
 }
 
-.button{
-height: 56px;
+.button {
+  height: 56px;
   padding: 10px 20px 10px 20px;
   width: 202px;
- background-color:  #079bbb;
+  background-color: #079bbb;
   border-color: #f5f5f5;
-  color: white
-  
+  color: white;
 }

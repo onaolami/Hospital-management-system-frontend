@@ -1,3 +1,4 @@
+import Button from "../Button";
 import Input from "../Input";
 import styles from "./styles.module.css";
 const PatientList = () => {
@@ -30,8 +31,8 @@ const PatientList = () => {
             <option value="doctor 3">Doctor 3</option>
           </select>
         </div>
-        <div className={styles.btn}> 
-        <button className={styles.button}>Submit</button>
+        <div className={styles.class}> 
+        <Button size="SMALL" variant="PRIMARY">Submit</Button>
         </div>
       </div>
     </div>

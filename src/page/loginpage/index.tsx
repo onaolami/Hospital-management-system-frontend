@@ -1,3 +1,4 @@
+import Button from "../../Components/Button";
 import styles from "./styles.module.css";
 
 const LoginPage = () => {
@@ -8,7 +9,7 @@ const LoginPage = () => {
         <div className={styles.wrapper}>
           <input className={styles.Input} placeholder="Username" />
           <input className={styles.Input} placeholder="Password" />
-          <button className={styles.btn}>Login</button>
+          <Button size="DEFAULT" variant="PRIMARY"> Login</Button>
         </div>
       </div>
       <div className={styles.imgContain}>
